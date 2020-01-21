@@ -20,6 +20,7 @@
 	<jsp:include page="../portal/menu.jsp" />
 	<!-- Page Content -->
 	<div class="container">
+		<br /> <br />
 		<div class="row">
 			<div class="col-lg-3">
 				<jsp:include page="../portal/category.jsp" />

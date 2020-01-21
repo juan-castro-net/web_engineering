@@ -80,8 +80,10 @@ http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
 	<security-role>
 		<role-name>CLIENT</role-name>
 	</security-role>
+	
 	<error-page>
 		<error-code>403</error-code>
-		<location>/portal/forbibden.jsp</location>
+		<location>/forbidden.jsp</location>
 	</error-page>
+	
 </web-app>
